@@ -1,2 +1,2 @@
-# alx-higher_level_programming
-Learning higher level programming 
+0x00. Python - Hello, World
+
