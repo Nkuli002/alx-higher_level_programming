@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-multiple_returns = __import__('8-multiple_returns').multiple_returns
 
-sentence = "At school, I learnt C!"
-length, first = multiple_returns(sentence)
-print("Length: {:d} - First character: {}".format(length, first))
+def multiple_returns(sentence):
+    if sentence != '':
+        first_char = sentence[0]
+    else:
+        first_char = None
+    return (len(sentence), first_char)
